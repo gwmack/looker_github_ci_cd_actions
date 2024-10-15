@@ -23,7 +23,7 @@ include: "/views/**/*.view.lkml"                # include all views in the views
 
 explore: flights {
   view_name: flights
-  view_label: "Flights"
+  view_label: "Flights Webhook"
 
 
   join: origin {
