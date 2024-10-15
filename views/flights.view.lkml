@@ -105,7 +105,7 @@ view: flights {
     type: number
     sql: ${TABLE}.taxi_out ;;
   }
-  measure: count {
-   type: count
-  }
+#  measure: count {
+ #  type: count
+#  }
 }
