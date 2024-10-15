@@ -20,6 +20,7 @@ include: "/views/**/*.view.lkml"                # include all views in the views
 #   extends: [bq_gsod]
 #   from: bq_gsod
 # }
+#Creating a Change
 
 explore: flights {
   view_name: flights
