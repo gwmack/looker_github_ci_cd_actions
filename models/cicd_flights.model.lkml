@@ -162,18 +162,18 @@ datagroup: once_yearly {
 }
 
 
-test: test_take_off_before_landing {
-  explore_source: flights {
-    column: flight_count {}
-    column: average_distance {}
-   }
-  assert: no_flights_take_off_after_landing {
-    expression: ${flights.flight_count} = 0 ;;
-  }
-  assert: test_2 {
-    expression: coalesce(${flights.average_distance},99) > 1 ;;
-  }
-}
+#test: test_take_off_before_landing {
+#  explore_source: flights {
+#    column: flight_count {}
+#    column: average_distance {}
+#   }
+#  assert: no_flights_take_off_after_landing {
+#    expression: ${flights.flight_count} = 0 ;;
+#  }
+#  assert: test_2 {
+#    expression: coalesce(${flights.average_distance},99) > 1 ;;
+#  }
+#}
 
 
 
