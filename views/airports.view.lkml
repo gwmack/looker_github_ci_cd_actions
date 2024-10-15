@@ -69,7 +69,7 @@ view: airports {
   }
 
   dimension: code {
-    type: string
+   type: string
     sql: ${TABLE}.code ;;
   }
 
