@@ -21,7 +21,7 @@ include: "/views/**/*.view.lkml"                # include all views in the views
 #   from: bq_gsod
 # }
 
-explore: flights {
+explore: webhook_flights {
   view_name: flights
   view_label: "Flights Webhook"
 
